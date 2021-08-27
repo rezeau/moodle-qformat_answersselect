@@ -1,11 +1,11 @@
 # moodle-qformat_answersselect
 ================
 
-This import format plugin takes a Moodle XML file and import all 
+This import format plugin takes a Moodle XML file and imports all 
 regular multichoice questions changing them into 'Random select answers' questions.
 This enables users to export some of their multichoice questions 
 using the normal Moodle XML export format
-and import them back with this format.
+and import them back with the 'Random select answers' format.
 The additionnal benefit of this process is that they now have 2 copies of each question, one
 using the regular grading scheme and one using the 'Random select answers' grading scheme.
 
