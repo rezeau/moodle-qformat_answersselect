@@ -25,18 +25,16 @@
 
 namespace qformat_answersselect\privacy;
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
- * Privacy Subsystem for qformat_answersselect implementing null_provider.
+ * Privacy Subsystem implementation for the plugin.
  *
- * @copyright  Joseph Rézeau 2021 <joseph@rezeau.org>
- * @copyright based on work by 2018 Daniel Thies <dethies@gmail.com>
+ * This plugin does not store any personal user data.
+ *
+ * @package    <your_plugin_name>    // Replace with your plugin's name (e.g., mod_forum)
+ * @copyright  2024 Your Name
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 class provider implements \core_privacy\local\metadata\null_provider {
-
     /**
      * Get the language string identifier with the component's language
      * file to explain why this plugin stores no data.

@@ -63,7 +63,6 @@ class qformat_answersselect extends qformat_xml {
      * @param array $question question array from xml tree
      * @return object question object
      */
-
     public function import_multichoice($question) {
         $qo = parent::import_multichoice($question);
         if (array_key_exists('answersselect', core_component::get_plugin_list('qtype'))) {

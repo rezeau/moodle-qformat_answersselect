@@ -32,7 +32,7 @@ $plugin->release   = '1.0';
 
 $plugin->maturity = MATURITY_STABLE;
 
-$plugin->dependencies = array(
+$plugin->dependencies = [
     'qformat_xml' => 2016120500,
     'qtype_answersselect' => 2021082200,
-);
+];
