@@ -25,9 +25,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'qformat_answersselect';
-$plugin->version   = 2024100800;
+$plugin->version   = 2025042000;
 $plugin->requires  = 2016120500;
-$plugin->release   = '4.5';
+$plugin->release   = '5.0';
 $plugin->maturity = MATURITY_STABLE;
 
 $plugin->dependencies = [
